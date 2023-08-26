@@ -1,4 +1,4 @@
-# poqrcode
+# poqrcode - Teste técnico vaga dev mobile jr
 
 ## Passo a passo de instalação:
 
