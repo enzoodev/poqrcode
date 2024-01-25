@@ -1,4 +1,4 @@
-# poqrcode - Teste técnico vaga dev mobile jr
+# poqrcode - Teste técnico vaga dev mobile II
 
 ## Passo a passo de instalação:
 
