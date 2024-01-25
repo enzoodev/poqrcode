@@ -2,11 +2,12 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Alert, TouchableOpacity, StatusBar } from 'react-native';
 import { BarCodeScannedCallback, BarCodeScanner } from 'expo-barcode-scanner';
 import { RFValue } from 'react-native-responsive-fontsize';
-import { useNavigation } from '@react-navigation/native';
+import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import { useTheme } from 'styled-components/native';
 import { Feather } from '@expo/vector-icons';
 
 import { pokemonService } from '@services/api';
+
 import { BorderedWrapper } from '@components/BorderedWrapper';
 
 import * as S from './styles';
@@ -57,6 +58,12 @@ export const Scanner: React.FC = () => {
       }
     },
     [navigation],
+  );
+
+  useFocusEffect(
+    useCallback(() => {
+      setScanned(false);
+    }, []),
   );
 
   return (
