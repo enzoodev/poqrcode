@@ -1,8 +1,8 @@
-# poqrcode - Teste técnico vaga dev mobile II
+# poqrcode - Technical Test for Mobile Developer Position
 
-## Passo a passo de instalação:
+## Installation Steps:
 
-1. Abra o seu terminal e clone o projeto com:`git clone https://github.com/enzoodev/poqrcode.git`
-2. Abra o projeto no seu editor de código e instale as dependências com:`yarn ou npm install`
-3. Rode `npx expo start` para iniciar o projeto
-4. Em seguida faça o download do app Expo Go para Android ou iOS caso deseje emular o app em seu dispositivo físico ou use um emulador de Android/simulador de iOS para utilizar o app.
+1. Open your terminal and clone the project with: `git clone https://github.com/enzoodev/poqrcode.git`
+2. Open the project in your code editor and install the dependencies with: `yarn` or `npm install`
+3. Run `npx expo start` to start the project
+4. Then download the Expo Go app for Android or iOS if you want to emulate the app on your physical device, or use an Android emulator/iOS simulator to use the app.
